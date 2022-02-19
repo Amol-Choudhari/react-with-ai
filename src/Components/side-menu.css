@@ -1,0 +1,5 @@
+.side-menu-main{width:20%;float:left;padding:20px;background-color: #101010;height:100%;}
+.side-menu-main h1{margin-bottom: 50px;color:#fff;font-size: 2.0rem;}
+.side-menu-main ul{list-style: none; padding:0;}
+.side-menu-main ul li{clear:both;margin-bottom:20px;color:#fff;cursor:pointer;}
+.MuiSvgIcon-root{float:left;margin-right:10px;}
