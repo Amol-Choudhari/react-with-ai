@@ -1,2 +1,25 @@
 .main-content{width:80%;float:right;padding:20px;}
 .main-content h1{margin-bottom: 50px;font-size: 2.0rem;}
+
+.activity-count-out{border:1px solid #ccc; margin:50px;padding:20px; text-align: center;background: #101010; }
+.activity-count-out h6{color:#fff;margin-bottom: 30px;}
+.camera-count-out{border:1px solid #ccc; margin:50px;padding:20px; text-align: center;background: #101010;color:#fff;}
+.camera-count-out h6{color:#fff;margin-bottom: 30px;}
+
+.activity-count{height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 37px; border-radius: 50%;background: #fff;color:#000;}
+
+#cam-run-count{display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 37px; border-radius: 50%;background: #fff;color:#000;}
+
+#cam-close-count{display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 15px auto;
+    padding-top: 23px; border-radius: 50%;background: #9b9797;color:#000;}
+.camera-count-out p{margin: 15px 0 0;}

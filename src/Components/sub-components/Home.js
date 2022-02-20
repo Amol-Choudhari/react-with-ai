@@ -29,6 +29,29 @@ const Home = () =>{
                 <div className="col-md-4"><Select options={Facilities} /></div>
                 <div className="clearfix"></div>
             </div>
+
+            <div className="row">
+                <div className="col-md-4 activity-count-out">
+                    <h6>Total Activity Monitoring</h6>
+                    <div className="activity-count">3</div>
+                </div>
+                <div className="col-md-4 camera-count-out">
+                    <h6>Total Cameras</h6>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <span id="cam-run-count">15</span>
+                            <p>Running</p>
+                        </div>
+                        <div className="col-md-6">
+                            <span id="cam-close-count">4</span>
+                            <p>Closed</p>
+                        </div>
+                        <div className="clearfix"></div>
+                    </div>
+                    
+                </div>
+                <div className="clearfix"></div>
+            </div>
         </div>
     );
 }

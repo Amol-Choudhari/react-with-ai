@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 
 import Home from "./sub-components/Home";
-//import Camera from "./sub-components/Camera";
+import Cameras from "./sub-components/Cameras";
 //import Sites from "./sub-components/Sites";
 
 const MainContent = () =>{
@@ -20,6 +20,7 @@ const MainContent = () =>{
                 <Router>
                     <Routes>
                         <Route path='/home' element={<Home/>} />
+                        <Route path='/cameras' element={<Cameras/>} />
                     </Routes>
 
                 </Router>
