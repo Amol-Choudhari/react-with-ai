@@ -30,6 +30,6 @@ export const SideMenuData = [
     {
         title:"Report a Bug",
         icon: <ReportProblemIcon />,
-        link:"./report"
+        link:"./report-bug"
     },
 ]

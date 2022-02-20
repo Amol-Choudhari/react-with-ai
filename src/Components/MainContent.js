@@ -9,7 +9,9 @@ import {
 
 import Home from "./sub-components/Home";
 import Cameras from "./sub-components/Cameras";
-//import Sites from "./sub-components/Sites";
+import Sites from "./sub-components/Sites";
+import Users from "./sub-components/Users";
+import ReportBug from "./sub-components/ReportBug";
 
 const MainContent = () =>{
 
@@ -20,7 +22,10 @@ const MainContent = () =>{
                 <Router>
                     <Routes>
                         <Route path='/home' element={<Home/>} />
-                        <Route path='/cameras' element={<Cameras/>} />
+                        <Route path='/camera' element={<Cameras/>} />
+                        <Route path='/site' element={<Sites/>} />
+                        <Route path='/user' element={<Users/>} />
+                        <Route path='/report-bug' element={<ReportBug/>} />
                     </Routes>
 
                 </Router>
