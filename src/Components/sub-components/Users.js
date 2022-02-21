@@ -1,13 +1,20 @@
 import React from "react";
 import CheckIcon from '@mui/icons-material/Check';
 import CloseIcon from '@mui/icons-material/Close';
+import { useNavigate } from "react-router-dom";
+
 
 const Users = () =>{
 
+    let navigate = useNavigate();
+    const changeRoute = () => {
+        let path=`./add-user`;
+        navigate(path);
+    }
     return (
         
         <div>
-            <button className="btn btn-primary">Add User</button>
+            <button className="btn btn-primary" onClick={changeRoute} >Add User</button>
             <div className="camera-status">
                 <table className="table table-bordered">
                     <tr>

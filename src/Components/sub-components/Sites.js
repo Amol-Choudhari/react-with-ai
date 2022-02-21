@@ -1,11 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Sites = () =>{
+
+    let navigate = useNavigate();
+    const changeRoute = () => {
+        let path=`./add-site`;
+        navigate(path);
+    }
 
     return (
         
         <div>
-            <button className="btn btn-primary">Add Site</button>
+            <button className="btn btn-primary" onClick={changeRoute}>Add Site</button>
             <div className="camera-status">
                 <table className="table table-bordered">
                     <tr>

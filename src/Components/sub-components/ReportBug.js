@@ -10,15 +10,15 @@ const ReportBug = () => {
       ]
 
     return (
-        <div class="col-md-8 report-bug">
+        <div class="col-md-6 offset-2 report-bug">
             <form method="POST" action="" className="group-control">
-                <lable>Title</lable>
+                <label>Title</label>
                 <input className="form-control" type="text" id="report-title"/>
 
-                <lable>Activity</lable>
+                <label>Activity</label>
                 <Select id="report-activity" options={activityOption} />
 
-                <lable>Description</lable>
+                <label>Description</label>
                 <textarea className="form-control"  id="report-desc"/>
 
                 <button type="submit" className="btn btn-primary">Report</button>
